@@ -1,0 +1,93 @@
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 9359ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 5938296ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2583437ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2550821ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2185820ns
+USER: 1ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2262578ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2207122ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2586721ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 4057344ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2357425ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2456253ns
+USER: 1ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2616962ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 1903652ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2032374ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2227376ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2005344ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0m  45  105 1246 dllmanager.h
+
+EXECUTION TIME:
+REAL: 3352ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0m  82  224 1699 results_dynamic_O.txt
+
+EXECUTION TIME:
+REAL: 2444ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0m
+EXECUTION TIME:
+REAL: 2934ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2445ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2934ns
+USER: 0ticks
+SYST: 0ticks
+[32m[1m[WC REPL] >>> [0mEXECUTION TIME:
+REAL: 2304ns
+USER: 0ticks
+SYST: 0ticks

@@ -1,0 +1,8 @@
+Zad 2, 3a i 3b zawiera ten sam kod (finalna wersje rozwiazujaca wszystkie na raz)
+Zrobione 100%
+Rezultaty są w "results/"
+Statyczna biblioteka jest najszybsza, dlopen i linkowana na początku porównywalne
+Optymalizacja dużo zmienia (zwlaszcza przeskok 2->3)
+"make report" tworzy rezultaty
+
+🤠
