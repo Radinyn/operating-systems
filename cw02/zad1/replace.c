@@ -4,6 +4,8 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <string.h>
+#include <time.h>
+#include <sys/times.h>
 
 size_t _;
 
@@ -82,12 +84,28 @@ void universal_full_write(const char* filepath, const char* buff) {
     universal_close(file);
 }
 
+struct timespec timespec_diff(struct timespec start, struct timespec end) {
+    struct timespec out;
+
+    if ((end.tv_nsec-start.tv_nsec)<0) {
+            out.tv_sec = end.tv_sec-start.tv_sec-1;
+            out.tv_nsec = 1000000000+end.tv_nsec-start.tv_nsec;
+    }
+    else {
+            out.tv_sec = end.tv_sec-start.tv_sec;
+            out.tv_nsec = end.tv_nsec-start.tv_nsec;
+    }
+    return out;
+}
 
 int main(int argc, char** argv) {
     if (argc != 5) {
         fprintf(stderr, "[REPLACE] Invalid arguments\n");
         return 1;
     }
+
+    struct timespec timespec_buff_start, timespec_buff_end;
+    clock_gettime(CLOCK_REALTIME, &timespec_buff_start);
 
     char from = argv[1][0];
     char into = argv[2][0];
@@ -104,5 +122,10 @@ int main(int argc, char** argv) {
     }
 
     universal_full_write(output_filename, content);
+
+    clock_gettime(CLOCK_REALTIME, &timespec_buff_end);
+    struct timespec diff = timespec_diff(timespec_buff_start, timespec_buff_end);
+    printf("EXECUTION TIME: %lds %ldns\n", diff.tv_sec, diff.tv_nsec);
+
     return 0;
 }

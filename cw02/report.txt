@@ -2,6 +2,9 @@ Ukonczone 100%
 
 Zad 1.
 Program dziala podobnie jak tr
+Pomiary robi `make report`
+Pomiary znajduja sie w plikach "pomiar_zad_1_{PREFIX}.txt"
+Wersja sys jest zazwyczaj szybsza
 
 Zad 2.
 Pomiary robi `make report`
