@@ -1,0 +1,20 @@
+Ukonczone 100%
+
+Zad 1.
+Program dziala podobnie jak tr
+
+Zad 2.
+Pomiary robi `make report`
+Pomiary znajduja sie w plikach "pomiar_zad_2_{PREFIX}.txt"
+Dodane wersja z rozmiarem bloku 8 do testow
+
+Zad 3.
+Program dziala podobnie do "wc --bytes *"
+
+Zad 4.
+Występują pewne różnice od 
+"find nazwa_katalogu | xargs wc --bytes"
+tree_size wydaje sie przeszukiwac wiecej sciezek,
+wyniki przecietnie są wieksze lub rowne
+
+👽
