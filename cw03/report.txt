@@ -1,0 +1,17 @@
+Ukonczone 100%
+
+Zad 1.
+* brak komentarza *
+
+Zad 2.
+Program zostal przetestowany (i dziala) na wymienionych przypadkach brzegowych.
+
+Zad 3.
+Zastosowalem fprintf zamiast perror w momencie gdy muszę formatować otrzymane bledy.
+Czekam na zakonczenie procesow potomnych.
+Dodalem dodatkowy parametr 'argv[3] = depth', aby moc w kontrolowanych warunkach wykonywac ten program np na '/'.
+Sprowadzam wszystkie sciezki do formy globalnej aby uniknac problemow.
+W przypadku wykonania programu na pliku (nie katalogu) zachowuje sie tak,
+jakby napotkal ten plik podczas rekursywnego przeszukiwania.
+
+😎
