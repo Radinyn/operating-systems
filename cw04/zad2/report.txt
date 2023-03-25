@@ -1,0 +1,36 @@
+[SIGTEST] SIGINFO:
+[SIGTEST]  SELF:
+[SIGTEST]    Signal number: 10
+[SIGTEST]    PID: 35050
+[SIGTEST]    UID: 1000
+[SIGTEST]    POSIX timer ID: 35050
+[SIGTEST]    Exit value / signal: 0
+
+[SIGTEST]  CHILD:
+[SIGTEST]    Signal number: 10
+[SIGTEST]    PID: 35051
+[SIGTEST]    UID: 1000
+[SIGTEST]    POSIX timer ID: 35051
+[SIGTEST]    Exit value / signal: 0
+
+[SIGTEST]  CUSTOM:
+[SIGTEST]    Signal number: 10
+[SIGTEST]    PID: 35050
+[SIGTEST]    UID: 1000
+[SIGTEST]    POSIX timer ID: 35050
+[SIGTEST]    Exit value / signal: badc0de
+
+[SIGTEST] NODEFER:
+[SIGTEST] (+) call id: 0, call depth: 0
+[SIGTEST] (+) call id: 1, call depth: 1
+[SIGTEST] (+) call id: 2, call depth: 2
+[SIGTEST] (+) call id: 3, call depth: 3
+[SIGTEST] (-) call id: 3, call depth: 3
+[SIGTEST] (-) call id: 3, call depth: 2
+[SIGTEST] (-) call id: 3, call depth: 1
+[SIGTEST] (-) call id: 3, call depth: 0
+
+[SIGTEST] RESETHAND:
+[SIGTEST] (+) call id: 0, call depth: 0
+[SIGTEST] (-) call id: 0, call depth: 0
+User defined signal 1

@@ -1,0 +1,15 @@
+Ukonczone 100%
+
+Zad 1.
+`make report` tworzy raport
+
+Zad 2.
+`make report` wyswietla opis jak utworzyc raport, poniewaz make nie lubi sie z sygnalami
+
+Zad 3.
+Nie uzylem sigsuspend poniewaz dzialalo mniej stabilnie niz rozwiazanie z licznikiem potwierdzen.
+Potwierdzane jest odebranie sygnalu, co nie oznacza pewnosci wykonania polecenia przez catcher,
+poniewaz nie ma kolejkowania i niektore operacje (zwlaszcza wypisywanie 100 liczb) zajmuja sporo czasu.
+Jesli sender nie dostanie potwierdzenia to po 5 sekundach ponownie wysyla sygnal.
+
+💀

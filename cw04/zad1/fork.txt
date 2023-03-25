@@ -1,0 +1,19 @@
+
+>>> Ignore:
+[SIGNALS] (34409) Raising signal.
+[SIGNALS] (34410) Raising signal.
+
+>>> Handler:
+[SIGNALS] (34414) Raising signal.
+[SIGNALS] (34414) Received signal.
+[SIGNALS] (34415) Raising signal.
+[SIGNALS] (34415) Received signal.
+
+>>> Mask:
+[SIGNALS] (34419) Raising signal.
+
+>>> Pending:
+[SIGNALS] (34424) Raising signal.
+[SIGNALS] (34424) Signal pending.
+[SIGNALS] (34425) Signal not pending.
+

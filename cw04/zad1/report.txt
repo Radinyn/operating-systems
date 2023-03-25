@@ -1,0 +1,10 @@
+>>> fork:
+ignore: Sygnal jest ignorowany w obydwu
+handler: Handler wywoluje sie w obydwu
+mask: Maska dziala w obydwu
+pending: Oczekujacy sygnal jest widoczny w rodzicu, ale nie w dziecku
+
+>>> exec:
+ignore: Sygnal jest ignorowany w obydwu
+mask: Maska dziala w obydwu
+pending: Oczekujacy sygnal jest widoczny w obydwu
