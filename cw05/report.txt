@@ -1,0 +1,13 @@
+Ukonczone 100%
+
+Zad 1.
+Zamiast `mail` program wykonuj `fortune | cowsay` zgodnie z umowa z zajec.
+
+Zad 2.
+`make report` tworzy raport
+
+Zad 3.
+Przy czytaniu z fifo wykorzystany zostal strtok poniewaz pare dzieci moze napisac zanim parent zdazy odczytac.
+`make report` tworzy raport
+
+🐄
