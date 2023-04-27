@@ -1,0 +1,11 @@
+Ukonczone 100%
+
+Zad 1.
+Dodane funkcja obslugujaca gre wielowatkowo,
+podanie ujemnej ilosci watkow skutkuje jednym watkiem na kazde pole,
+a wiec jest zgodne z poleceniem.
+
+Zad 2.
+Kod zadania 1 + dodany argument - ilosc watkow
+
+😳
